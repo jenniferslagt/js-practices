@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.countdown-timer {
+  background-image: url("../images/snowy-mountains.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 3rem 1rem;
+}
+
+.countdown-timer h1 {
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.countdown-timer .countdown-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.countdown-timer .countdown-container .counter {
+  text-align: center;
+}
+
+.countdown-timer .countdown-container .counter .number {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+
+@media (min-width: 768px) {
+  .countdown-timer .countdown-container .counter .number {
+    font-size: 3.5rem;
+  }
+}
+
+.countdown-timer .countdown-container .counter .time-unit {
+  font-size: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
