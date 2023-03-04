@@ -90,6 +90,43 @@ body {
   border-width: 3px;
 }
 
+.counter-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.counter-container #value {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.counter-container .btn {
+  background-color: transparent;
+  padding: 0.5rem;
+  border: solid 2px #101010;
+  border-radius: 0.5rem;
+}
+
+.counter-container .btn:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.counter-container .btn:hover, .counter-container .btn:focus {
+  color: #F1F1F1;
+  background-color: #101010;
+}
+
 .countdown-timer {
   background-image: url("../images/snowy-mountains.jpg");
   background-size: cover;
@@ -140,5 +177,14 @@ body {
 
 .countdown-timer .countdown-container .counter .time-unit {
   font-size: 1rem;
+}
+
+.header {
+  margin: 3rem 0 3rem;
+  text-align: center;
+}
+
+.header h1 {
+  font-weight: normal;
 }
 /*# sourceMappingURL=style.css.map */

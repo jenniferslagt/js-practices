@@ -1,0 +1,20 @@
+.counter-container {
+	@include flexCenter(column);
+	#value {
+		font-size: $size-7;
+		margin-bottom: $spacing-2;
+	}
+	.btn {
+		background-color: transparent;
+		padding: $spacing-1;
+		border: solid 2px $black;
+		border-radius: $radius-2;
+		&:not(:last-child) {
+			margin-right: $spacing-1;
+		}
+		&:hover, &:focus {
+			color: $white;
+			background-color: $black;
+		}
+	}
+}
