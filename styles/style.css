@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  background-color: #f8f6fa;
+  background-color: #F8F6FA;
 }
 
 .color-flipper-header {
@@ -125,6 +125,103 @@ body {
 .counter-container .btn:hover, .counter-container .btn:focus {
   color: #F1F1F1;
   background-color: #101010;
+}
+
+.bg-reviews {
+  background-color: #101010;
+}
+
+.header {
+  color: #F1F1F1;
+}
+
+.reviews-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.reviews-container .review {
+  position: relative;
+  color: #F1F1F1;
+  background-color: #161616;
+  -webkit-box-shadow: -1rem 1rem 2rem rgba(0, 0, 0, 0.3);
+          box-shadow: -1rem 1rem 2rem rgba(0, 0, 0, 0.3);
+  max-width: 30rem;
+  margin: 0 1rem 3rem;
+  padding: 21rem 2rem 2rem;
+  text-align: center;
+}
+
+.reviews-container .review .author {
+  color: #DC143C;
+}
+
+.reviews-container .review .reviewer-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.reviews-container .review .job {
+  display: table;
+  margin: 0.5rem auto;
+  color: #F1F1F1;
+  background-color: #880808;
+  padding: 0 0.5rem;
+}
+
+.reviews-container .review .reviewer-img, .reviews-container .review #job, .reviews-container .review #text {
+  margin-bottom: 1rem;
+}
+
+.reviews-container .review .description {
+  margin-bottom: 3rem;
+}
+
+.reviews-container .review .btn-container {
+  margin-bottom: 0.5rem;
+}
+
+.reviews-container .review .btn-container .prev-btn, .reviews-container .review .btn-container .next-btn {
+  color: #F1F1F1;
+  background-color: transparent;
+  border: none;
+}
+
+.reviews-container .review .btn-container .prev-btn:hover, .reviews-container .review .btn-container .prev-btn:focus, .reviews-container .review .btn-container .next-btn:hover, .reviews-container .review .btn-container .next-btn:focus {
+  color: #DC143C;
+}
+
+.reviews-container .review .btn-container .prev-btn .material-symbols-outlined, .reviews-container .review .btn-container .next-btn .material-symbols-outlined {
+  font-weight: bold;
+}
+
+.reviews-container .review .random-btn {
+  color: #F1F1F1;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 2px solid #F1F1F1;
+  padding: 0.5rem 1rem;
+}
+
+.reviews-container .review .random-btn:hover, .reviews-container .review .random-btn:focus {
+  color: #DC143C;
+  border-color: #DC143C;
 }
 
 .countdown-timer {
