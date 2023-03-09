@@ -1,0 +1,101 @@
+.bg-navbar {
+	background-color: $black;
+}
+
+// Navbar styles on mobile screens
+.navbar {
+	background-color: $grey-dark;
+	padding: $spacing-2;
+	.nav-header {
+		@include flexCenter(row);
+		justify-content: space-between;
+		.logo {
+			width: 3rem;
+		}
+		.nav-toggle {
+			all: unset;
+			transition: linear transform 300ms;
+			&:hover {
+				transform: rotate(90deg);
+			}
+			.nav-icon {
+				color: $white;
+				font-size: $size-3;
+			}
+		}
+	}
+	// Hide links by default
+	.links {
+		height: 0;
+		overflow: hidden;
+		transition: height 1s;
+		list-style-type: none;
+		.link {
+			&:first-child {
+				margin-top: $spacing-3;
+			}
+			margin-top: $spacing-2;
+			a {
+				color: $grey;
+				text-decoration: none;
+				&:hover {
+					color: $white;
+					border-left: solid 2px $white;
+					padding-left: $spacing-1;
+				}
+			}
+		}
+	}
+	// Toggle class to show the links
+	.show-links {
+		height: 12rem;
+	}
+	.socials {
+		display: none;
+	}
+}
+
+// Navbar styles on tablet and bigger screens
+@media (min-width: 768px) {
+	.navbar {
+		@include flexCenter(row);
+		justify-content: space-between;
+		.nav-header {
+			.nav-toggle {
+				display: none;
+			}
+		}
+		.links {
+			@include flexCenter(row);
+			height: auto;
+			margin: 0 $spacing-4;
+			.link {
+				margin: 0 $spacing-2;
+				&:first-child {
+					margin-top: 0;
+				}
+				a:hover {
+					border-left: none;
+					border-bottom: solid 2px $white;
+					padding: 0 0 $spacing-1 0;
+				}
+			}
+		}
+		.socials {
+			@include flexCenter(row);
+			list-style-type: none;
+			.social {
+				&:not(:first-child) {
+					margin: 0 0 0 $spacing-1;
+				}
+				.social-icon {
+					color: $purple-light;
+					font-size: 1.25rem;
+					&:hover {
+						color: $white;
+					}
+				}
+			}
+		}
+	}
+}

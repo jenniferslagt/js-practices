@@ -224,6 +224,167 @@ body {
   border-color: #DC143C;
 }
 
+.bg-navbar {
+  background-color: #101010;
+}
+
+.navbar {
+  background-color: #161616;
+  padding: 1rem;
+}
+
+.navbar .nav-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .nav-header .logo {
+  width: 3rem;
+}
+
+.navbar .nav-header .nav-toggle {
+  all: unset;
+  -webkit-transition: linear transform 300ms;
+  transition: linear transform 300ms;
+}
+
+.navbar .nav-header .nav-toggle:hover {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.navbar .nav-header .nav-toggle .nav-icon {
+  color: #F1F1F1;
+  font-size: 1.5rem;
+}
+
+.navbar .links {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 1s;
+  transition: height 1s;
+  list-style-type: none;
+}
+
+.navbar .links .link {
+  margin-top: 1rem;
+}
+
+.navbar .links .link:first-child {
+  margin-top: 2rem;
+}
+
+.navbar .links .link a {
+  color: #808080;
+  text-decoration: none;
+}
+
+.navbar .links .link a:hover {
+  color: #F1F1F1;
+  border-left: solid 2px #F1F1F1;
+  padding-left: 0.5rem;
+}
+
+.navbar .show-links {
+  height: 12rem;
+}
+
+.navbar .socials {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .navbar .nav-header .nav-toggle {
+    display: none;
+  }
+  .navbar .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: auto;
+    margin: 0 3rem;
+  }
+  .navbar .links .link {
+    margin: 0 1rem;
+  }
+  .navbar .links .link:first-child {
+    margin-top: 0;
+  }
+  .navbar .links .link a:hover {
+    border-left: none;
+    border-bottom: solid 2px #F1F1F1;
+    padding: 0 0 0.5rem 0;
+  }
+  .navbar .socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    list-style-type: none;
+  }
+  .navbar .socials .social:not(:first-child) {
+    margin: 0 0 0 0.5rem;
+  }
+  .navbar .socials .social .social-icon {
+    color: #888FF5;
+    font-size: 1.25rem;
+  }
+  .navbar .socials .social .social-icon:hover {
+    color: #F1F1F1;
+  }
+}
+
 .countdown-timer {
   background-image: url("../images/snowy-mountains.jpg");
   background-size: cover;
