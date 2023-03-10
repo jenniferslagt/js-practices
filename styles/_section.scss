@@ -1,0 +1,14 @@
+.section {
+	background-color: $blue-darker;
+	padding: $spacing-5 $spacing-3;
+	@media (min-width: 768px) {
+		padding: $spacing-6 $spacing-8;
+	}
+	.section-title {
+		color: $white;
+		margin-bottom: $spacing-3;
+		@media (min-width: 768px) {
+			font-size: $size-4;
+		}
+	}
+}
