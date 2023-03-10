@@ -1,0 +1,40 @@
+.article-container {
+	display: flex;
+	overflow: scroll;
+	gap: $spacing-2;
+	@media (min-width: 768px) {
+		gap: $spacing-4;
+	}
+}
+
+.article {
+	position: relative;
+	min-width: 18rem;
+	@media (min-width: 768px) {
+		min-width: 23rem;
+	}
+	.article-img {
+		width: 100%;
+		height: 15rem;
+		object-fit: cover;
+	}
+	.article-content {
+		padding-top: $spacing-2;
+		.article-title {
+			color: $white;
+			font-size: $size-2;
+		}
+		.article-descr {
+			font-size: $size-2;
+			color: $grey;
+		}
+	}
+	.article-link {
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
