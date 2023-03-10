@@ -163,15 +163,6 @@ body {
   background-color: #F8F6FA;
 }
 
-.color-flipper-header {
-  margin: 3rem 0 3rem;
-  text-align: center;
-}
-
-.color-flipper-header h1 {
-  font-weight: normal;
-}
-
 .color-flipper-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -278,10 +269,6 @@ body {
 
 .bg-reviews {
   background-color: #101010;
-}
-
-.header {
-  color: #F1F1F1;
 }
 
 .reviews-container {
@@ -554,11 +541,6 @@ body {
   margin: 3rem 1rem;
 }
 
-.countdown-timer h1 {
-  font-weight: normal;
-  font-size: 2rem;
-}
-
 .countdown-timer .countdown-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -589,9 +571,15 @@ body {
 .header {
   margin: 3rem 0 3rem;
   text-align: center;
+  color: #101010;
+}
+
+.header.is-white {
+  color: #F1F1F1;
 }
 
 .header h1 {
+  font-size: 2rem;
   font-weight: normal;
 }
 /*# sourceMappingURL=style.css.map */
