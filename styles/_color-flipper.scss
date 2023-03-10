@@ -2,14 +2,6 @@ body {
 	background-color: $lilac-light;
 }
 
-.color-flipper-header {
-	margin: $spacing-4 0 $spacing-4;
-	text-align: center;
-	h1 {
-		font-weight: normal;
-	}
-}
-
 .color-flipper-container {
 	display: flex;
 	flex-direction: column;
