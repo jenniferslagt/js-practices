@@ -7,6 +7,7 @@ Watch the app [here](https://jenniferslagt.github.io/js-practices/)!
 In this repo you can view some small JS projects. The goal is to sharpen my skills. Even though the main focus is on JavaScript, SASS and Git are important as well!
 
 ## Important topics
+* Using GIT for version system control
 * Looping through an array
 * If (else) states
 * Manipulating the DOM with JS
