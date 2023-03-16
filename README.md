@@ -1,5 +1,5 @@
 # js-practices
-Doing some js projects, just to refresh my skills after traveling the world for a couple of months.
+Doing some small js projects, just to refresh my skills after traveling the world for a couple of months.
 Watch the app [here](https://jenniferslagt.github.io/js-practices/)!
 
 
