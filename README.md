@@ -15,6 +15,10 @@ In this repo you can view some small JS projects. The goal is to sharpen my skil
 * Event Listeners
 * Storing local data
 
+* SASS
+* Importing Google fonts
+* Using Font-Awesome for the icons
+
 
 ## Sources
 * [Build 15 JavaScript Projects - Vanilla JavaScript Course](https://www.youtube.com/watch?v=3PHXvlpOkf4&t=110s)
