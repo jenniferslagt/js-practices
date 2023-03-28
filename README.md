@@ -1,8 +1,8 @@
 # js-practices
 Doing some small js projects, just to refresh my skills after traveling the world for a couple of months.
 
-<img src="https://user-images.githubusercontent.com/45489420/228189747-aca75fed-afe1-4009-b4c0-2fd3eccd06cc.png" style="max-width: 400px; height: 100%;">
-Watch the app [here](https://jenniferslagt.github.io/js-practices/)!
+<img src="https://user-images.githubusercontent.com/45489420/228189747-aca75fed-afe1-4009-b4c0-2fd3eccd06cc.png" style="max-width: 350px; height: 100%;">
+Watch the app [here](https://jenniferslagt.github.io/js-practices/)
 
 
 ## Description
